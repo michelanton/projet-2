@@ -1,0 +1,155 @@
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background: url("ressources/carte_electronique2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+}
+.cont1 {
+  position: absolute;
+  top: 12%;
+  right: 45%;
+}
+.cont2 {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+
+h1 {
+  /*text-transform: uppercase;*/
+  font-size: 80px;
+  color: #ddfcdd;
+  font-family: 'Noto Sans JP', Abril fatface, sans-serif;
+}
+
+h1 span {
+  position: relative;
+}
+h2 {
+  /*text-transform: uppercase;*/
+  font-size: 60px;
+  color: #c1f8c4;
+  font-family: 'Noto Sans JP', Abril fatface, sans-serif;
+}
+h2 span {
+  position: relative;
+}
+.container-btns {
+  position: relative;
+  top: 70%;
+  left: 25%;
+}
+
+.btn-first {
+  border: 2px solid #f1f1f1;
+  outline: none;
+  background: transparent;
+  font-size: 30px;
+  padding: 15px;
+  width: 300px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn-first:nth-child(1) {
+  margin-right: 30px;
+}
+
+.btn-first:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #f1f1f1;
+  color: #333;
+}
+
+.lignes {
+  position: absolute;
+  top: 6%;
+  left: 5%;
+}
+
+.l1 {
+  width: 250px;
+  height: 3px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.l2 {
+  width: 140px;
+  height: 3px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+}
+
+.logo {
+  position: absolute;
+  right: 7%;
+  top: 4%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.medias {
+  list-style-type: none;
+  position: absolute;
+  right: 3.3%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bulle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+  background: #f1f1f1;
+  cursor: pointer;
+  position: relative;
+}
+
+.logo-medias {
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */
